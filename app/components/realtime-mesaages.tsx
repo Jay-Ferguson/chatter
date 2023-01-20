@@ -16,7 +16,7 @@ export default function RealtimeMessages({
 
   useEffect(() => {
      setMessages(serverMessages);
-
+     
   }, [serverMessages]);
 
   useEffect(() => {
